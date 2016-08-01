@@ -28,13 +28,22 @@
 	margin-left: 10px;
 }
 
-.text{
-	padding: 0px;
-	text-align: justify;
-	/*height: 400px;*/
-	margin-left: 0px;
+div.text {
+  margin: 30px;
+  background-color: rgba(255, 255, 255, 0.05);
+  border: 1px;
+  /*opacity: 0.9;*/
+  /*filter: alpha(opacity=60); *//* For IE8 and earlier */
+}
 
-	/*background-color: grey;*/
+div.text p {
+  margin: 0% 3% 0% 3%;
+  font-weight: bold;
+  color: #ffffff;
+  font: inherit;
+  font-style: italic;
+  font-size: 100%;
+  text-align: justify;
 }
 
 /*Conjunto de campus*/
@@ -85,7 +94,6 @@
 	margin-top: 1%;
 	float: left;
 }
-
 
 .divRight{
 	position: relative;

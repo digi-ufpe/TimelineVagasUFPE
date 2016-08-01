@@ -50,6 +50,7 @@ body {
 .reveal h5,
 .reveal h6 {
   margin: 0 0 20px 0;
+  padding-left: 15px;
   color: #eeeeee;
   font-family: "League Gothic", Impact, sans-serif;
   line-height: 0.9em;
